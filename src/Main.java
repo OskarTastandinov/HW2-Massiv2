@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args){
         int[] expenses = generateRandomArray();
         System.out.println(Arrays.toString(expenses));
-        System.out.println("Задание 1");
+        System.out.println("Задание 1.0");
         int sum = 0;
         for ( int expense : expenses){
             sum = expense + expense;
